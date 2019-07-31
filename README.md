@@ -55,14 +55,15 @@ selecting your app, then clicking **Slash commands** on the left sidebar.
 
 ![](./readme/images/slack-create-command.png)
 
-Click **Create Command** and fill out your command information.
+Click **Create Command** and fill out your command information. You'll want to
+use `/echo` as the command name and `https://<username>.events.stdlib.com/` as the
+URL, where `<username>` is your Standard Library username.
 
 ![](./readme/images/slack-command-info.png)
 
-Of course, replace `<username>` with your Standard Library username. Click **Save**
-in the bottom right to proceed.
+Click **Save** in the bottom right to proceed.
 
-That's it!
+That's it, you're all done! Your Slack app should be ready to go.
 
 # Thank You!
 
