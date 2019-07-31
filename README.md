@@ -45,9 +45,8 @@ You'll be asked to log in and be brought to a screen that looks something like t
 Simply click **Link Resource** and follow the instructions to build and link
 a Slack app, then click **Deploy Project** when ready.
 
-Once deployed, you'll need to configure the Slack slash command in your Slack app
-dashboard: create an `/echo` command that points to:
-`https://<username>.events.stdlib.com/`.
+Once deployed, you will still need to create the `/echo` command separately in your Slack app dashboard.
+For the slash command's request URL, enter `https://<username>.events.stdlib.com/`.
 
 ### Creating your Echo Command on Slack
 
