@@ -49,6 +49,20 @@ Once deployed, you'll need to configure the Slack slash command in your Slack ap
 dashboard: create an `/echo` command that points to:
 `https://<username>.events.stdlib.com/`.
 
+### Creating your Echo Command on Slack
+
+You can create your echo command by visiting [api.slack.com/apps](https://api.slack.com/apps),
+selecting your app, then clicking **Slash commands** on the left sidebar.
+
+![](./readme/images/slack-create-command.png)
+
+Click **Create Command** and fill out your command information.
+
+![](./readme/images/slack-command-info.png)
+
+Of course, replace `<username>` with your Standard Library username. Click **Save**
+in the bottom right to proceed.
+
 That's it!
 
 # Thank You!
