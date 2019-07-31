@@ -1,0 +1,12 @@
+{
+  "name": "stdlib-test-f",
+  "version": "0.0.0",
+  "author": "steve <steven@stdlib.com>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "async": "^2.6.0",
+    "lib": "^4.0.2",
+    "request": "^2.85.0"
+  },
+  "private": true
+}

@@ -1,0 +1,24 @@
+{
+  "description": "A Slack application that sends an hourly ping to #random and responds to a /echo command",
+  "build": "faaslang",
+  "name": "/project-slack-ping",
+  "timeout": 20000,
+  "events": [
+    {
+      "scheduler.hourly": {
+        "filename": "events/scheduler/hourly/ping.js",
+        "subtype": {
+          "offset": "0 minutes"
+        }
+      }
+    },
+    {
+      "slack.command": {
+        "filename": "events/slack/command/echo.js",
+        "subtype": {
+          "command": "echo"
+        }
+      }
+    }
+  ]
+}
