@@ -1,4 +1,5 @@
 # Basic Slack App: Scheduled ping, /echo command
+## Deploy in seconds
 
 [<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
 
@@ -17,21 +18,21 @@ as part of the configuration process.
 the `/echo` command separately, once deployed, that needs to point to:
 `https://<username>.events.stdlib.com/`.
 
-# Hourly Ping Event
+## Hourly Ping Event
 
 This event will trigger `/functions/events/scheduler/hourly/ping.js` and provide
 an output that look like this:
 
 ![](./readme/images/ping.png)
 
-# Echo Command
+## Echo Command
 
 This event will trigger `/functions/events/slack/command/echo.js` and provide
 an output that looks like this (the debug message will only appear in `development`):
 
 ![](./readme/images/echo.png)
 
-# Deploying this Slack App
+## Deploying this Slack App
 
 You can deploy this Slack App to [Standard Library](https://stdlib.com) by clicking this button:
 
