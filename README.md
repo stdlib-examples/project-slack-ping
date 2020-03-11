@@ -1,7 +1,7 @@
 # Basic Slack App: Scheduled ping, /echo command
 ### Deploy in seconds
 
-[<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
+[<img src="https://deploy.stdlib.com/static/images/deploy.svg?" width="192">](https://deploy.stdlib.com/)
 
 This is a basic Slack Application example, written in Node.js,
 on [Standard Library](https://stdlib.com) that:
@@ -36,7 +36,7 @@ an output that looks like this (the debug message will only appear in `developme
 
 You can deploy this Slack App to [Standard Library](https://stdlib.com) by clicking this button:
 
-[<img src="https://deploy.stdlib.com/static/images/deploy.svg" width="192">](https://deploy.stdlib.com/)
+[<img src="https://deploy.stdlib.com/static/images/deploy.svg?" width="192">](https://deploy.stdlib.com/)
 
 You'll be asked to log in and be brought to a screen that looks something like this:
 
